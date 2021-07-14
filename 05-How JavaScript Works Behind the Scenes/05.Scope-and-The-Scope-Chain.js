@@ -42,7 +42,11 @@
 // !! Her scope 'un kendi dışında yer alan kapsamlara erişme imkanı vardır. İç içe oldukları sürece en içerdeki dışarıya doğru erişim sağlayabilir.
 // !! Bir scope un belirli bir değişken kullanması gerekiyorsa, ancak mevcut scope da bu değişken yer almıyorsa scope chain içinde arayışa çıkar. İçie scopelarda ilgili değişken aşağıda yukarıya doğru erişilebilir, Yukarıdan aşağıya değişkenlere erişilemez.
 
-// SCOPE CHAIN VS. CALL STACK (TEKRARLA)
+// SCOPE CHAIN VS. CALL STACK
 // https://drive.google.com/file/d/153biVCGxmqWzz06VfT3lvMA4kkez2iJd/view?usp=sharing
 
 //! Write Summary ?
+// --1) Scoping, Değişkenlerin hangi kapsamlar içinde yer aldığını (block, function ya da global) sorar veya Biz bu değişkenlere nereden ve nasıl erişebileceğimiz sorusuna yanıt arar.
+// --2) JavaScript de 3 tür scope vardır. Global, functions and blocks
+// --3) Sadece let ve const değişkenleri block scope kapsamındadır. var, block scope içine dahil olmaz, block scope'un içinde yer alsalar bile içinde yer aldıkları fonksiyonun  alanına dahil olurlar.
+// --4) Bir değişken belirli bir alana dahil değilse, engine içerden dışarıya doğru arayışa çıkar buna variable lookup ismi verilir. En dışardan en içe değişkenlere erişilemez. Variable lookup tek yönlüdür. İçten - dışa
