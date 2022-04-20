@@ -1,7 +1,7 @@
 // let js = "amazing";
 // console.log(40 + 8 + 23 - 5);
 
-//------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 // 10. Values and Variables
 
 /*
@@ -36,7 +36,7 @@ console.log(typeof year);
 year = 1997;
 console.log(typeof number);
 
-console.log(typeof null); 
+console.log(typeof null);
 //Not: Null 'un veri türünü sorguladığında JS bunu bir object olarak tanımlar fakat bu JS'de bir hata olarak kabul edilir. Döndürmesi gereken değer null olması gerekli.
 */
 
