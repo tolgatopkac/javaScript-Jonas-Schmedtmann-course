@@ -7,12 +7,19 @@
 /*
 console.log("Tolga");
 console.log(23);
-
+// declaring a variable...
 let firstName = "Tolga";
 console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+
+let jonas_matilda = "JM";
+let $function = 27;
+
+// Asla değerii değiştirmeyeceğin değişkenleri büyük harf ile tanımlamalısın PI sayısı gibi.
+
+let PI = 3.1415;
+
 */
+
 
 //------------------------------------------------------------------------------
 // 12. Data Types
