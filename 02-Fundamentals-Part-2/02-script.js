@@ -7,9 +7,10 @@
 let hasDriversLicense = false;
 const passTest = true;
 
+
 if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log("I can drive :D");
-*/
+if (hasDriversLicense) console.log("I can drive :D"); */
+
 // şimdi burda ilk if'de ben hasDrivesLicense değişkenini hatalı yazdım 'use strict'; modu kullanmadığım zaman console bana herhangi bir uyarı vermedi. Boş console gösterdi
 // use strict modunu açtığımda ise hata gözüktü, bu mod bazı hataları görünür kılar.
 
@@ -21,8 +22,8 @@ if (hasDriversLicense) console.log("I can drive :D");
 
 // 33. Functions
 
-/*
-function logger() {
+
+/* function logger() {
   console.log("My name is Tolga");
 }
 
@@ -41,20 +42,20 @@ const applesJuice = fruitProcessor(5, 0);
 console.log(fruitProcessor(5, 0));
 
 const appleOrangeJuice = fruitProcessor(2, 4);
-console.log(appleOrangeJuice);
-*/
+console.log(appleOrangeJuice); */
+
 //------------------------------------------------------------------------------
 
 // 34. Function Declarations vs. Expressions
 
-// ---Funciton Declaration
+// ---Function Declaration
 
-/*
+/* const age1 = calcAge1(1997);
+console.log(age1); //24
+
 function calcAge1(birthYear) {
   return 2021 - birthYear;
 }
-const age1 = calcAge1(1997);
-console.log(age1); //24
 
 // ---Function Expressions
 const calcAge2 = function (birthYear) {
@@ -62,8 +63,8 @@ const calcAge2 = function (birthYear) {
 };
 
 const age2 = calcAge2(1997);
-console.log(age2);
-*/
+console.log(age2); */
+
 //Not! : Aralarındaki fark Declaration'da fonksiyonu tanımlamadan önce çağırabilirsin ve bu işleme -hoisting- adı verilir
 
 // --------------------------------------------------------------------------------
@@ -88,7 +89,7 @@ console.log(yearUntilRetirement(1991, "Bob"));
 // ------------------------------------------------------------------------------
 // 36. Functions Calling Other Functions
 
-function cutFruitPiesces(fruit) {
+/* function cutFruitPiesces(fruit) {
   return fruit * 4;
 }
 
@@ -101,7 +102,7 @@ function fruitProcessor(apples, oranges) {
   return juice;
 }
 
-console.log(fruitProcessor(2, 4));
+console.log(fruitProcessor(2, 4)); */
 
 // ------------------------------------------------------------------------------
 // 37. Reviewing Functions
@@ -194,7 +195,7 @@ console.log(ages);
 // -------------------------------------------------------------------------------------
 // 40. Basic Array Operations (Methods)
 
-// ----ADD ELEMENTS----
+/* // ----ADD ELEMENTS----
 // Push : Dizinin Sonuna yeni bir eleman ekler
 const friends = ["Michael", "Steven", "Peter"];
 const newLength = friends.push("Jay");
@@ -225,7 +226,7 @@ console.log(friends.includes("Bob"));
 
 if (friends.includes("Peter")) {
   console.log("You have a friend called Peter");
-}
+} */
 
 // ------------------------------------------------------------------------------
 
@@ -280,7 +281,11 @@ console.log(tolga["last" + nameKey]);
 const interestedIn = prompt(
   "What do you want to know abot Tolga ? Choose between firstName, lastName, age, job, and friends"
 );
-// üstteki örnekte dot notation kullandığında undefined çıktısı aldım
+console.log(tolga.interestedIn)
+// undefined
+console.log(tolga[firstName])
+// Tolga
+// -- Prompt fonksiyona nesne içerisinde yer alan key girildiğinde DOT kullanılığında undefined döndürdü, BRACKET kullanıldığında Tolga döndürüldü.
 
 if (tolga[interestedIn]) {
   console.log(tolga[interestedIn]);
@@ -303,7 +308,7 @@ console.log(
 
 // 44. Object Methods
 
-const tolga = {
+/* const tolga = {
   firstName: "Tolga",
   lastName: "Topkaç",
   birthYear: 1997,
@@ -326,9 +331,8 @@ const tolga = {
   },
 
   getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()} years old ${
-      this.job
-    }, and he ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+    return `${this.firstName} is a ${this.calcAge()} years old ${this.job
+      }, and he ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
   },
 };
 
@@ -339,12 +343,12 @@ console.log(tolga.age);
 // Challenge
 // 'Jonas is a 46-year old teacher, and he has a /no driver's license'
 
-console.log(tolga.getSummary());
+console.log(tolga.getSummary()); */
 
 //------------------------------------------------------------------------------
 
 // 46. Iteration: The for Loop
-/* 
+/*
 console.log("Lifting weights repetition 1 🏋️‍♂️");
 console.log("Lifting weights repetition 2 🏋️‍♂️");
 console.log("Lifting weights repetition 3 🏋️‍♂️");
@@ -465,7 +469,7 @@ for (let i = 1; i <= 3; i++) {
 //   console.log(`Lifting weights repetition ${rep} `);
 // }
 
-console.log("While Loop");
+/* console.log("While Loop");
 let rep = 1;
 while (rep <= 10) {
   console.log(`Lifting weights repetition ${rep} `);
@@ -481,3 +485,4 @@ while (dice !== 6) {
     console.log(" Loop is about to end...");
   }
 }
+ */
