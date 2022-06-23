@@ -1,9 +1,14 @@
 // 118-Summary: Which Data Structure to Use?
 // Data Structure Overview
+
+
 //--Sources of Data
-//From the program itself
-//From the UI
-// From external sources
+//From the program itself : Data written directly in source code (status messages)
+//From the UI : Data input from the user or data written in DOM (todo app)
+// From external sources (Webb API)
+
+
+
 
 // Verinin geldiği kaynağa göre koleksiyon halinde biri veri yapısında listelenmelidir.
 // Bu veriler basit bir listeden ibaretse Arrays ya da Sets kullanabilirsin.

@@ -13,7 +13,6 @@ const birthYear = '1997';
 // Not : let ve const hoisting özelliği yoktur, fakat var hoisting şekilde erişilse bile undefined değerini döndürür.
 
 // ---- FUNCTIONS ----
-
 // console.log(addDecl(2, 3)); // 5
 // console.log(addExpr(2, 3)); // ERROR fonksiyon tanımlamadan önce erişilemez.
 // console.log(addArrow(2, 3)); // ERROR  fonksiyon tanımlamadan önce erişilemez.

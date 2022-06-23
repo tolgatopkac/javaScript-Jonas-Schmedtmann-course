@@ -1,11 +1,13 @@
 // 100. Primitives vs. Objects in Practice
 
+// Primitives Types
 let lastName = 'Williams';
 let oldLastName = lastName;
 lastName = 'Davis';
 console.log(lastName, oldLastName);
 // Output : Davis, Williams
 
+// Reference types
 const jessica = {
   firstName: 'Jessica',
   lastName: 'Williams',

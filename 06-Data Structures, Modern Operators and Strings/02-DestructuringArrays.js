@@ -15,9 +15,9 @@ const restaurant = {
 };
 
 const arr = [2, 3, 4];
-const a = [0]; // 2
-const b = [1]; // 3
-const c = [2]; // 4
+const a = arr[0]; // 2
+const b = arr[1]; // 3
+const c = arr[2]; // 4
 
 // birden fazla değişkene dizi elemanını atama
 const [x, y, z] = arr;

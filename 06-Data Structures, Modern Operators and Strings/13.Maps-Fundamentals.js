@@ -18,6 +18,7 @@ console.log(rest.get(false)); // We are closed
 console.log(rest.get(true)); // We are open
 
 const time = 7;
+// Okunaklı değil fazla kullanılmaması daha uygun olur
 console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
 
 console.log(rest.has('categories'));

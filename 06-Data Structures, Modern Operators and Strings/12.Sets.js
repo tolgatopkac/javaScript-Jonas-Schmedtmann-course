@@ -1,5 +1,6 @@
 // 115. Sets
 // Set benzersiz değerlerden oluşan koleksiyondur ve hiçbir zaman kopyalanamaz.
+// Koleksiyonlar kopyalanmaz.
 
 const ordersSet = new Set([
   'Pasta',
@@ -40,7 +41,7 @@ for (const order of ordersSet) console.log(order);
 // EXAMPLE
 const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 
-// Diziyi set'e dönüştürme
+// Array to Set
 const staffUnique = new Set(staff);
 console.log(staffUnique);
 

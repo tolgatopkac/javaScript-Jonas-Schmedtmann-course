@@ -1,6 +1,7 @@
 'use strict';
 // 137. More Closure Examples
 // Tam kavrayamadım tekrar et!
+// 23.06.22 tarihinde buraya geldim ve hala bu closure konusunda zayıfım.
 
 // EXAMPLE - 1
 let f;

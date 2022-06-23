@@ -39,6 +39,7 @@ tolga.greet();
 // Arrow function'da kullanılan this keyword global scope ulaşır.
 // Arrow fonksiyonları methodlarda kullanma, fonksiyon expression kullan.
 // Arrow function expression functiona çevrildiğinde Hey Tolga çıktısını verir.
+// Oluşturulan method'u arrow fonksiyon ile kurma 
 
 tolga.calcAge();
 
